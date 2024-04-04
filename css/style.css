@@ -39,3 +39,15 @@ ul {
     display: inline-block;
     vertical-align: top;
 }
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.workGrid {
+    display: grid;
+    
+}
