@@ -3,3 +3,25 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--Gray);
 }
+
+.topNave {
+    background-color: var(--Primary-extra-light);
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    margin: auto;
+}
+
+ul.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.navItem {
+    padding: 16px 20px;
+}
