@@ -24,4 +24,12 @@ ul.nav {
 
 .navItem {
     padding: 16px 20px;
+    text-decoration: none;
+    font-size: var(--font-size-navigation);
+    color: var(--Primary);
+}
+
+.navItem:hover {
+    color: var(--Primary-dark);
+    background-color: var(--Secondary-light);
 }
